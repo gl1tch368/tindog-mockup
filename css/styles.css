@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+}
+
+/*        Navbar        */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*           Heading            */
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding: 1.5rem;
+}
+
+.section-heading, .price-tags, .price-intro {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+}
+
+/*         Features           */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.iphone-img {
+  padding-left: 50px;
+  margin-top: 10px;
+  width: 23%;
+  right: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4c68;
+}
+
+/*           Testimonials             */
+
+#testimonials {
+  background-color: #EF8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: bold;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*           Press             */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*           Pricing             */
+
+#pricing {
+  font-family: 'Montserrat', sans-serif;
+  padding: 100px;
+}
+
+.price-name {
+  background-color: rgb(226, 229, 233);
+  font-weight: 600;
+  padding: 10px;
+}
+
+.pricing-col {
+  padding: 5%;
+}
+
+/*           CTA             */
+
+#cta {
+  padding: 5% 15% 5%;
+  background-color: #FF4c68;
+}
+
+#cta .btn {
+  margin: 1%;
+}
+
+/*           Footer             */
+
+#footer {
+  padding: 7%;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+/*           Quary             */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-img {
+    padding-top: 20px;
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+    padding: 20px 0;
+  }
+
+}
